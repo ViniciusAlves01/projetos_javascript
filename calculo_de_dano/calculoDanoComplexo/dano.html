@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="dano.css">
+   <title>Calculo de Dano</title>
+</head>
+<body>
+   <div>
+      <h1>Atacante X Defensor</h1>
+   </div>
+   <main>
+      <div id="atacante" class="blocoDoPersonagem">
+         <div class="txtBox">
+            <p id="pAtack" class="p1">Atacante</p>
+            <label for="nameAtack">Nome:</label>
+            <input type="text" name="nameAtack" id="nameAtack" required>
+         </div>
+         <div class="txtBox">
+            <label for="pontosAtaque">Pontos de Ataque:</label>
+            <input type="number" name="pontosAtaque" id="pontosAtaque" required>
+         </div>
+      </div>
+      <div id="defensor" class="blocoDoPersonagem">
+         <div class="txtBox">
+            <p id="pDefender" class="p1">Defensor</p>
+            <label for="nameDefender">Nome:</label>
+            <input type="text" name="nameDefender" id="nameDefender" required>
+         </div>
+         <div>
+            <div class="txtBox">
+               <label for="pontosDefesa">Pontos de Defesa:</label>
+               <input type="number" name="pontosDefesa" id="pontosDefesa" required>
+            </div>
+            <div>
+               <p>Possui Escudo?</p>
+               <input type="radio" name="escudo" id="noShield" checked>
+               <label for="noShield">Não</label>
+               <input type="radio" name="escudo" id="yesShield">
+               <label for="yesShield">Sim</label>
+            </div>
+         </div>
+      </div>
+      <div id="divRes">
+         <p id="txtRes"></p>
+      </div>
+   </main>
+   <div id="divButton"> 
+      <input type="button" value="Verificar" id="button" onclick="Verificar()">
+   </div>
+   <script src="dano.js"></script>
+</body>
+</html>

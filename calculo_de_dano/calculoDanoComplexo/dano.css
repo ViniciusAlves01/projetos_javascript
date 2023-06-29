@@ -1,0 +1,57 @@
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+   background-color: #1a1a1a;
+   color: white;
+}
+h1{
+   text-align: center;
+}
+.p1{
+   font-size: 1.2em;
+   border-radius: 5px;
+   padding: 5px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   margin-bottom: 10px;
+}
+#pAtack{
+   background-color: rgb(255, 0, 0);
+}
+#pDefender{
+background-color: #0062ff;
+}
+main{
+   color: #1a1a1a;
+   margin: auto;
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 20px;
+   
+}
+.blocoDoPersonagem{
+   padding: 10px;
+   background-color: rgb(248, 244, 240);
+   border-radius: 5px;
+   box-shadow: 0px 0px 8px #ffffff95;
+
+}
+.txtBox{
+   margin-bottom: 10px;
+}
+p{
+   margin: 0;
+}
+#divButton{
+   text-align: center;
+}
+#button{
+   font-size: 1.2em;
+   padding: 5px;
+   border-radius: 5px;
+   cursor: pointer;
+}

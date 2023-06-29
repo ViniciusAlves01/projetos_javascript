@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escalação</title>
+    <style>
+      *{
+        font-family: 'Lucida Sans', 'Lucida Grande', Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Escalação</h1>
+    <section>
+      <h2>Adicionar um jogador</h2>
+      <label for="position">Posição:</label>
+      <input type="text" name="position" id="position">
+      <label for="name">Nome:</label>
+      <input type="text" name="name" id="name">
+      <label for="number">Número da camisa:</label>
+      <input type="number" name="number" id="number">
+      <button onclick="addPlayer()">+ Adionar</button>
+    </section>
+    <section>
+      <h2>Remover um jogador</h2>
+      <label for="numberToRemove">Número da camisa:</label>
+      <input type="number" name="numberToRemove" id="numberToRemove">
+      <button onclick="removePlayer()">- Remover</button>
+    </section>
+    <section>
+      <h2>Escalação:</h2>
+      <ul id="playersList"></ul>
+    </section>
+    <script src="escalacao.js"></script>
+  </body>
+</html>

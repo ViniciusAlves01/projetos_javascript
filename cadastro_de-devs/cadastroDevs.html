@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro de Devs</title>
+   <style>
+      *{
+         font-family: 'Lucida Sans', Verdana, sans-serif;
+      }
+   </style>
+   <script src="cadastroDevs.js" defer></script>
+</head>
+<body>
+   <h1>Cadastro de Devs</h1>
+   <h2>Cadastrar novo desenvolvedor</h2>
+   <form id="form">
+      <label for="devName">Nome Completo:</label>
+      <input type="text" name="devName" id="devName">
+      <br><br>
+      <label>Tecnologias:</label><br>
+      <button id="addTechButton" type="button">+ Nova Tecnologia</button><br>
+      <ul id="techRows"></ul><br>
+      <button type="submit">Cadastrar Dev</button>
+   </form>
+   
+</body>
+</html>
