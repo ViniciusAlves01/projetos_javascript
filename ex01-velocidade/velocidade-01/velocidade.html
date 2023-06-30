@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aferimento de Velocidade</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 93vh;
+        }
+        p{
+            display: inline;
+            font-size: 1.3em;
+            color: #d6d6d6;
+        }
+        #container{
+            background-color: #461fe2;
+            margin: 50px auto;
+            min-width: 100px;
+            max-width: 500px;
+            text-align: center;
+            border-radius: 10px;
+            border: 6px solid orange;
+            padding: 20px;
+            box-shadow: 0px 0px 8px #1a1a1a5d;
+        }
+        h1{
+            margin-bottom: 15px;
+            color: white;
+        }
+        #botao{
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 1.2em;
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.549);
+            border:2px solid white;
+            cursor: pointer;
+        }
+        #botao:hover{
+            background-color: rgb(252, 186, 63);
+        }
+        #txtv{
+            border-radius: 5px;
+            width:50px;
+            height: 18px;
+            text-align: center;
+            border: 2px solid orange;
+        }
+        #res{
+            font-size: 1.3em;
+            color: #d6d6d6;
+        }
+    </style>
+</head>
+<body>
+    <main id="container">
+        <div id="conteudo">
+            <h1>Aferimento de Velocidade</h1>
+            <p>Digite sua velocidade:</p> <input type="number" name="" id="txtv"> <p>Km/h</p>
+            <input type="button" value="Verificar" onclick="calcular()" id="botao">
+            <div id="res"></div>
+        </div>
+    </main>
+    <script src="velocidade.js"></script>
+</body>
+</html>

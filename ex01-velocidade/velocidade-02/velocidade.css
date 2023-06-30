@@ -1,0 +1,32 @@
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+}
+#titulo{
+   text-align: center;
+}
+main{
+   padding: 20px;
+   width: 400px;
+   margin: auto;
+   background-color: rgb(248, 244, 240);
+   border-radius: 5px;
+   box-shadow: 0px 0px 8px #1a1a1a2e;
+   display: flex;
+   flex-direction: column;
+}
+.form{
+   margin-bottom: 10px;
+}
+.txtBox{
+   width: 40px;
+}
+#divButton{
+   text-align: center;
+}
+#button{
+   font-size: 1em;
+   cursor: pointer;
+}
